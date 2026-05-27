@@ -1,0 +1,17 @@
+resource_groups = {
+  rg1 = {
+    name     = "abhishek_rg"
+    location = "centralindia"
+    # managed_by="terraform"
+  }
+  rg2 = {
+    name     = "appa_rg"
+    location = "eastus"
+    # managed_by="terraform"
+  }
+    rg3 = {
+    name     = "appaso_rg"
+    location = "westus"
+    # managed_by="terraform"
+  }
+}
