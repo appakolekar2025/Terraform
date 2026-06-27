@@ -1,0 +1,2 @@
+variable "vnet_peerings" {
+}
