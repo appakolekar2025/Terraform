@@ -6,7 +6,7 @@ module "rg-module" {
 }
 module "sa_module" {
     source = "./Module/storage_group"
-    sa_name = module.rg-module.sa_name
+    sa_name = var.sa_name
     rg_name = module.rg-module.rg_name
     rg_location = module.rg-module.rg_location
   
